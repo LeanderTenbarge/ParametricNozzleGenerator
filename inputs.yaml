@@ -1,0 +1,27 @@
+# Nozzle Configuration:
+Geometry:
+  Nozzle:
+    inlet_height: 0.15
+    throat_height: 0.025
+    exit_height: 0.15
+    inlet_length: 5
+    exit_length: 5
+    inlet_coefficients: [1.00, 0.75, 0.50, 0.25, 0.00]
+    outlet_coefficients: [0.00, 0.25, 0.50, 0.75, 1.00]
+
+
+  Outlet:
+    height1: 1
+    height2: 2
+    domain_length: 10
+
+  Wall:
+    radius: 0.01
+    boundary_layer_thickness: 0.01
+    wall_thickness: 0.02
+
+  Interpolation:
+    interpolation_density: 1000
+    arc_density: 50
+    num_iterations: 50
+
