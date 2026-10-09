@@ -1,0 +1,3 @@
+[submodule "thirdParty/fkYAML"]
+	path = thirdParty/fkYAML
+	url = https://github.com/fktn-k/fkYAML.git
