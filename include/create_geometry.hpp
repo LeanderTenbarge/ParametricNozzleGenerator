@@ -4,6 +4,8 @@
 #include "parse_inputs.hpp"
 #include <cmath>
 #include <vector>
+#include <filesystem>
+
 
 #include <gp_Pnt.hxx>
 #include <gp_Vec.hxx>
@@ -44,6 +46,7 @@ void create_geometry
 	const config& settings
 )
 {
+	namespace fs = std::filesystem;
 
 	std::vector<double> inlet_coefficients = settings.inlet_coefficients;
 	std::vector<double> exit_coefficients = settings.outlet_coefficients;
@@ -679,8 +682,17 @@ void create_geometry
 
 
 
-	if (!BRepTools::Write(compound, "data/geometry.brep"))
-	{
-		std::cerr << "Failed to write BREP file.\n";
-	}
+	fs::path out_dir = "data";
+if (!fs::exists(out_dir))
+{
+    fs::create_directories(out_dir);
+}
+
+fs::path out_path = out_dir / "geometry.brep";
+std::cout << "Writing BREP to: " << fs::absolute(out_path) << std::endl;
+
+if (!BRepTools::Write(compound, out_path.string().c_str()))
+{
+    std::cerr << "Failed to write BREP file.\n";
+}
 }

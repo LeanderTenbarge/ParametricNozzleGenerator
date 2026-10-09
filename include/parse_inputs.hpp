@@ -1,5 +1,5 @@
 #pragma once
-#include "fkYAML/single_include/fkYAML/node.hpp"
+#include "../thirdParty/fkYAML/single_include/fkYAML/node.hpp"
 #include <fstream>
 #include <iostream>
 
