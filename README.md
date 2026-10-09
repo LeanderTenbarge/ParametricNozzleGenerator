@@ -7,4 +7,4 @@ The program takes a set of inputs (listed in inputs.yaml), the inputs are listed
 
 
 Then with the inputs, the program converts the dimensionless coefficients into a Piecewise Cubic Hermite Interpolating Polynomial (PHIP) based spline interpolation algorithm. This specific algorithm was utilized in order to preserve monotonicity and minimize the change for sharp overshoots that would cause issues in mesh generation. 
-![Alt text](../images/comparison.png "This text shows on hover")
+!(../images/comparison.png "This text shows on hover")
