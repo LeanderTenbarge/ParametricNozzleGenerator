@@ -1,2 +1,3 @@
-# ParametricNozzleGenerator
-A parametric nozzle generator/meshing tool written in C++ with geometry creation using the OpenCascade C++ API, meshing using GMSH. 
+### ParametricNozzleGenerator
+## Introduction
+A parametric nozzle geometry/meshing tool built using the OpenCascade C++ API and GMSH (.geo) scripting. 
