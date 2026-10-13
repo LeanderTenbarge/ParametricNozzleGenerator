@@ -13,27 +13,21 @@
 >6. inlet_coefficients
 >7. outlet_coefficients
 
-<p align="center">
-  <img src="images/comparison.png" alt="Comparison of Spline Methods width="100">
-</p>
+
 
 > Geometry/Outlet
 >1  height1
 >2. height2
 >3. domain_length
 
-<p align="center">
-  <img src="images/comparison.png" alt="Comparison of Spline Methods width="100">
-</p>
+
 
 > Geometry/Wall:
 >1. radius
 >2. boundary_layer_thickness
 >3. wall_thickness
 
-<p align="center">
-  <img src="images/comparison.png" alt="Comparison of Spline Methods width="100">
-</p>
+
 
 > Geometry/Interpolation:
 >1. interpolation_density
