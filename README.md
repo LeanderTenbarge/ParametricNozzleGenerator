@@ -39,3 +39,10 @@ Then with the inputs, the program converts the dimensionless coefficients into a
 <p align="center">
   <img src="images/comparison.png" alt="Comparison of Spline Methods width="500">
 </p>
+
+## Mesh/Geometry Examples:
+<p align="center">
+  <img src="images/mesh.png" alt="Example of Nozzle Mesh width="500">
+</p>
+
+
