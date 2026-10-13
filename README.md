@@ -4,6 +4,8 @@
 
 ## What it does/How it works?
 >The program takes a set of inputs (listed in inputs.yaml). In order to effectively use this tool it is imperative to understand the coefficients for the spline interpolation are >dimensionless, as they move from 0.0 to 1.0 in a linear fashion, the inputs are listed as the following:
+
+
 > Geometry/Nozzle:
 >1. inlet_height
 >2. throat_height
@@ -14,19 +16,16 @@
 >7. outlet_coefficients
 
 
-
-> Geometry/Outlet
->1  height1
+> Geometry/Outlet:
+>1.  height1
 >2. height2
 >3. domain_length
-
 
 
 > Geometry/Wall:
 >1. radius
 >2. boundary_layer_thickness
 >3. wall_thickness
-
 
 
 > Geometry/Interpolation:
